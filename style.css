@@ -1,0 +1,116 @@
+/* 배경색 검정 */
+body {
+    background-color: black;
+}
+/* 계산기 틀 색  */
+.calculator {
+    background-color: rgb(230, 230, 230);
+    width: 510px;
+}
+/* 제일 작은 버튼 */
+.button-xs {
+    width: 44px;
+    height: 34px;
+    line-height: 34px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+.button-xs > i{
+    line-height: 34px;
+}
+.button-xs:hover {
+    background-color: rgb(210, 210, 210);
+    border: 1px solid rgb(180, 180, 180);
+}
+/* 작은 버튼 */
+.button-s {
+    width: 36px;
+    height: 38px;
+    line-height: 38px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+.button-s > i {
+    line-height: 38px;
+}
+.button-s:hover {
+    background-color: rgb(210, 210, 210);
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: rgb(180, 180, 180); */
+    border: 1px solid rgb(180, 180, 180);
+}
+/* 중간 버튼 */
+.button-m {
+    width: 71px;
+    height: 48px;
+    line-height: 48px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+.button-m:hover:not(.lightgray) {
+    background-color: rgb(210, 210, 210);
+    border: 1px solid rgb(180, 180, 180);
+}
+.button-l {
+    width: 110px;
+    height: 83px;
+    line-height: 83px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+.button-l > i {
+    line-height: 83px;
+}
+.button-l:hover {
+    background-color: rgb(210, 210, 210);
+    border: 1px solid rgb(180, 180, 180);
+}
+.ib {
+    display: inline-block;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-lightgray{
+    background-color: rgb(240, 240, 240);
+}
+.lightgray{
+    color: rgb(190, 190, 190);
+}
+.d-flex{
+    display: flex;
+}
+.margin-left-auto{
+    margin-left: auto;
+}
+.text-align-right {
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}
+.f-bold{
+    font-weight: bold;
+}
+.f-medium{
+    font-size: 24px;
+}
+.f-large{
+    font-size: 48px;
+}
+.pr-20{
+    padding-right: 20px;
+}
+.w-70{
+    width: 70px;
+}
+.lh-35{
+    line-height: 35px;
+}

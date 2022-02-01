@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Calculator</title>
+</head>
+<!-- 계산기 html과 css로 ui구현 -->
+<body>
+    <div class="calculator">
+        <div class="d-flex">
+            <div class="ib text-align-center lh-35 w-70">계산기</div>
+            <div class="button-xs text-align-center ib margin-left-auto">_</div>
+            <div class="button-xs text-align-center ib"><i class="far fa-square"></i></div>
+            <div class="button-xs text-align-center ib"><i class="fas fa-times"></i></div>
+        </div>
+        <div class="d-flex">
+            <div class="button-s ib text-align-center"><i class="fas fa-bars"></i></div>
+            <div class="ib f-bold f-medium w-70 text-align-center">표준</div>
+            <div class="button-s ib text-align-center"><i class="fas fa-arrow-circle-up"></i></div>
+            <div class="button-s ib text-align-center margin-left-auto"><i class="far fa-clock"></i></div>
+        </div>
+        <div class="text-align-right pr-20 lightgray">
+            788x
+        </div>
+        <div class="text-align-right f-bold f-large pr-20" id="value">
+            0
+        </div>
+        <div>
+            <div class="text-align-center button-m ib lightgray">MC</div>
+            <div class="text-align-center button-m ib lightgray">MR</div>
+            <div class="text-align-center button-m ib f-bold">M+</div>
+            <div class="text-align-center button-m ib f-bold">M-</div>
+            <div class="text-align-center button-m ib f-bold">MS</div>
+            <div class="text-align-center button-m ib lightgray">M-</div>
+        </div>
+        <div>
+            <div class="f-medium text-align-center button-l ib bg-lightgray">%</div>
+            <div class="f-medium text-align-center button-l ib bg-lightgray">CE</div>
+            <div class="f-medium text-align-center button-l ib bg-lightgray">C</div>
+            <div class="text-align-center button-l ib bg-lightgray">
+                <i class="fas fa-backspace"></i>
+            </div>
+        </div>
+        <div>
+            <div class="f-medium text-align-center button-l ib bg-lightgray">1/x</div>
+            <div class="f-medium text-align-center button-l ib bg-lightgray">x2</div>
+            <div class="f-medium text-align-center button-l ib bg-lightgray">2/x</div>
+            <div class="f-medium text-align-center button-l ib bg-lightgray">÷</div>
+                </div>
+            <div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(7)">7</div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(8)">8</div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(9)">9</div>
+                <div class="f-medium text-align-center button-l ib bg-lightgray">X</div>
+            </div>
+            <div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(4)">4</div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(5)">5</div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(6)">6</div>
+                <div class="f-medium text-align-center button-l ib bg-lightgray">-</div>
+            </div>
+            <div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(1)">1</div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(2)">2</div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold" onclick="updateValue(3)">3</div>
+                <div class="f-medium text-align-center button-l ib bg-lightgray">+</div>
+            </div>
+            <div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold">+/-</div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold">0</div>
+                <div class="f-medium text-align-center button-l ib bg-white f-bold">.</div>
+                <div class="f-medium text-align-center button-l ib bg-lightgray">=</div>
+            </div>
+        </div>
+        </body>
+        </html>
